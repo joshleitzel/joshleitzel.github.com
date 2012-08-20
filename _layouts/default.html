@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Josh Leitzel" />
+   <!-- link href="http://feeds.feedburner.com/josh-leitzel" rel="alternate" title="Josh Leitzel" type="application/atom+xml" /-->
+
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Typekit -->
+   <script type="text/javascript" src="//use.typekit.net/jvs7bsn.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+<div class="site">
+  <header>
+    {% if page.url != '/index.html' %}
+      <div id="home-link"><a href="/">⌂</a></div>
+    {% endif %}
+    
+    <div id="links">
+      <ul>
+        <li><a href="http://twitter.com/joshleitzel">Follow me</a></li>
+        <li><a href="http://github.com/joshleitzel">Fork me</a></li>
+        <li><a href="http://stackoverflow.com/users/86937/josh-leitzel">Upvote me</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <div id="content">
+    {{ content }}
+  </div>
+  
+  <footer><a href="/">⚓</a></footer>
+</div>
+
+</body>
+</html>

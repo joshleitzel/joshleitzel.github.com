@@ -111,8 +111,11 @@ header {
 
 /* Footer */
 footer {
-  border-top: 1px solid #F6F6F6;
   margin-top: 2em;
   padding-top: 1em;
   text-align: center;
+}
+#license {
+  font-size: 80%;
+  margin-bottom: 1em;
 }

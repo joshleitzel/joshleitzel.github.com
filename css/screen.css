@@ -1,16 +1,16 @@
 body {
-  font: 1.2em 'cardo';
+  font: 1em 'Source Sans Pro';
   margin: 1em auto;
 }
 a:link, a:visited, a:active, a:hover {
-  color: #ff3900;
+  color: #396F8F;
   text-decoration: none;
 }
 a:hover {
-  color: #A62500;
+  text-decoration: underline;
 }
 h1, h2, .post .date, #links {
-  font-family: 'source-sans-pro', 'helvetica neue', helvetica, arial;
+  font-family: 'Source Sans Pro', 'helvetica neue', helvetica, arial;
 }
 h1, h2 {
   margin: 0;
@@ -24,11 +24,12 @@ h2 {
 }
 h2 a:hover {
   color: #000;
+  text-decoration: none;
 }
 
 header, #content-inner, footer {
   margin: 0 auto;
-  width: 960px;
+  width: 750px;
 }
 @media screen and (max-width: 960px) {
   header, #content-inner, footer {
@@ -63,6 +64,9 @@ header {
   #links li {
     list-style: none;
   }
+  #links li + li {
+    margin-top: 0.2em;
+  }
   @media screen and (min-width: 321px) {
     #links ul {
       overflow: hidden;
@@ -79,9 +83,6 @@ header {
 
 /* Main Content */
 #content {
-  background: #FEFEFE;
-  border-bottom: 1px solid #FFEDEA;
-  border-top: 1px solid #FFD8D3;
   clear: both;
 }
 #posts, #post {
@@ -94,12 +95,18 @@ header {
     color: #909090;
   }
   .post .content {
+    line-height: 1.5;
     text-align: justify;
   }
-  .post p:last-of-type:after {
+  .post .content > p:last-child:after {
     content: ' ■';
+    font-size: 150%;
   }
-
+  .post .content blockquote label {
+    font-size: 110%;
+    font-variant: small-caps;
+    font-weight: bold;
+  }
 @media screen and (min-width: 1025px) {
   #posts .post .date {
     position: absolute;
@@ -108,10 +115,13 @@ header {
     width: 100px;
   }
 }
+.post + .post {
+  margin-top: 3em;
+}
 
 /* Footer */
 footer {
-  margin-top: 2em;
+  margin-top: 3em;
   padding-top: 1em;
   text-align: center;
 }

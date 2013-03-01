@@ -25,7 +25,7 @@ h2 {
 h2 a:hover {
   color: #000;
 }
-h1 a:hover, h2 a:hover {
+h1 a:hover, h2 a:hover, #et-phone-home {
   text-decoration: none;
 }
 

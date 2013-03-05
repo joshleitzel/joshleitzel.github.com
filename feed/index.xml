@@ -16,6 +16,7 @@ layout: nil
   {% for post in site.posts %}
   <entry>
     <title>{{ post.title }}</title>
+    <author>Josh Leitzel</author>
     <link href="http://joshleitzel.com/blog{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <id>http://joshleitzel.com{{ post.id }}</id>

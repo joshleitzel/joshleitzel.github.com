@@ -102,7 +102,9 @@ header {
   }
   .post .content > p:last-child:after {
     content: ' ■';
-    font-size: 150%;
+    font-family: arial;
+    position: relative;
+    top: -1px;
   }
   .post .content blockquote label {
     font-size: 110%;

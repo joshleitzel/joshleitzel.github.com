@@ -1,5 +1,5 @@
 body {
-  font: 1em 'Source Sans Pro';
+  font-family: "source-sans-pro";
   margin: 1em auto;
 }
 a:link, a:visited, a:active, a:hover {
@@ -8,9 +8,6 @@ a:link, a:visited, a:active, a:hover {
 }
 a:hover {
   text-decoration: underline;
-}
-h1, h2, .post .date, #links {
-  font-family: 'Source Sans Pro', 'helvetica neue', helvetica, arial;
 }
 h1, h2 {
   margin: 0;

@@ -130,3 +130,42 @@ footer {
   font-size: 80%;
   margin-bottom: 1em;
 }
+
+/* Portfolio */
+#portfolio .project {
+  margin-top: 3em;
+}
+#portfolio h3 {
+  color: #2F5EC4;
+  display: inline;
+}
+#portfolio .project ul {
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin: 0 0 0 1em;
+  padding: 0;
+}
+#portfolio .project ul li {
+  background: #DDE2ED;
+  display: inline-block;
+  font: 75% "source-code-pro";
+  padding: 0.3em 0.5em;
+  margin-right: 1em;
+}
+#portfolio .github {
+  margin: 0;
+}
+#portfolio .github a {
+  color: #A3ADC2;
+}
+#portfolio .details {
+  margin-top: 1em;
+  overflow: hidden;
+}
+#portfolio .details p {
+}
+#portfolio .details img {
+  border: 1px solid #ccc;
+  width: 748px;
+}

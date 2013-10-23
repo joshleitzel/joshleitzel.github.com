@@ -14,7 +14,6 @@ h1, h2 {
 }
 h1 {
   font-size: 175%;
-  float: left;
 }
 h2 {
   font-size: 150%;
@@ -53,24 +52,27 @@ header {
 #home-link:hover #home-icon {
   color: #ff3900;
 }
-#links {
-  float: right;
+#links ul {
+  margin: 0;
+  padding: 0;
 }
+#links li {
+  list-style: none;
+}
+#links li + li {
+  margin-top: 0.2em;
+}
+@media screen and (min-width: 321px) {
+  h1 {
+    float: left;
+  }
+  #links {
+    float: right;
+  }
   #links ul {
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
   }
-  #links li {
-    list-style: none;
-  }
-  #links li + li {
-    margin-top: 0.2em;
-  }
-  @media screen and (min-width: 321px) {
-    #links ul {
-      overflow: hidden;
-    }
-  }
+}
 @media screen and (max-width: 320px) {
   #links {
     float: none;

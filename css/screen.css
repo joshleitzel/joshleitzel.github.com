@@ -97,7 +97,7 @@ header {
     line-height: 1.5;
     text-align: justify;
   }
-  .post .content > p:last-child:after {
+  .post p.last:after {
     content: ' ■';
     font-family: arial;
     position: relative;
@@ -118,6 +118,10 @@ header {
 }
 .post + .post {
   margin-top: 3em;
+}
+.footnotes {
+  border-top: 1px solid #EDEDED;
+  font-size: 80%;
 }
 
 /* Footer */

@@ -2,3 +2,4 @@ pygments: true
 permalink: pretty
 auto: true
 markdown: kramdown
+url: 'http://localhost:4000'

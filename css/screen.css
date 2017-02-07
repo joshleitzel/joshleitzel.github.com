@@ -110,6 +110,20 @@ header {
     font-variant: small-caps;
     font-weight: bold;
   }
+  .post p > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 85%;
+  }
+  @media screen and (max-width: 400px) {
+    .post p > img { max-width: 100%; }
+  }
+  .post h3 {
+    border-bottom: 1px solid #eee;
+    margin-top: 2em;
+    padding-bottom: 0.2em;
+    text-transform: uppercase;
+  }
 @media screen and (min-width: 1025px) {
   #posts .post .date {
     position: absolute;
@@ -174,4 +188,16 @@ footer {
 #portfolio .details img {
   border: 1px solid #ccc;
   width: 748px;
+}
+
+#services .note {
+  font-style: italic;
+}
+#services .hire-me {
+  font-weight: bold;
+  text-align: center;
+}
+#services .not-sure {
+  border-top: 1px solid #DDE2ED;
+  padding-top: 1em;
 }

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '@RoguePOTUSStaff Is Probably a Fraud'
+summary: "@RoguePOTUStaff claims it's a White House insider. It's probably a fraud."
 date: 2017-02-06 11:00 UTC-8
 ---
 
